@@ -3,76 +3,146 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Yang, Yejiang</title>
+    <title>Your Name - CV</title>
     <style>
         body {
             font-family: Arial, sans-serif;
-            margin: 20px;
+            color: #333;
             line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background: #f4f4f4;
+        }
+        .container {
+            max-width: 800px;
+            margin: 30px auto;
+            background: #fff;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
         header {
             text-align: center;
-            margin-bottom: 50px;
-        }
-        h1 {
-            margin: 0;
-        }
-        section {
             margin-bottom: 40px;
         }
-        .contact-info {
-            text-align: center;
-            margin-bottom: 50px;
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+            color: #333;
+        }
+        header p {
+            font-size: 1.2em;
+            color: #666;
+        }
+        .section {
+            margin-bottom: 30px;
+        }
+        .section h2 {
+            font-size: 1.8em;
+            color: #333;
+            border-bottom: 2px solid #007acc;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+        .section p, .section ul {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+        .section ul li {
+            margin-bottom: 10px;
+        }
+        .contact-info, .skills, .education, .experience, .projects {
+            display: flex;
+            flex-direction: column;
+        }
+        .contact-info a {
+            color: #007acc;
+            text-decoration: none;
+        }
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
+        .skills ul, .education ul, .experience ul, .projects ul {
+            padding-left: 20px;
+        }
+        .skills ul li, .education ul li, .experience ul li, .projects ul li {
+            margin-bottom: 10px;
+        }
+        .projects a {
+            color: #007acc;
+        }
+        .projects a:hover {
+            text-decoration: underline;
         }
     </style>
 </head>
 <body>
-    <header>
-        <h1>Your Name</h1>
-        <p>A brief tagline about your profession or your current job</p>
-    </header>
-    
-    <section>
-        <h2>Contact Information</h2>
-        <p>Email: <a href="mailto:youremail@example.com">youremail@example.com</a></p>
-        <p>LinkedIn: <a href="https://www.linkedin.com/in/yourprofile">linkedin.com/in/yourprofile</a></p>
-        <p>GitHub: <a href="https://github.com/yourusername">github.com/yourusername</a></p>
-    </section>
-    
-    <section>
-        <h2>Education</h2>
-        <p><strong>Your Degree</strong> - Your University, Year</p>
-        <ul>
-            <li>Relevant coursework or honors</li>
-            <li>Thesis or projects</li>
-        </ul>
-    </section>
-    
-    <section>
-        <h2>Work Experience</h2>
-        <p><strong>Your Job Title</strong> - Your Company, Year</p>
-        <ul>
-            <li>Key responsibility or project</li>
-            <li>Another key achievement or task</li>
-        </ul>
-    </section>
-    
-    <section>
-        <h2>Skills</h2>
-        <ul>
-            <li>Programming Languages: Python, C++, etc.</li>
-            <li>Tools: Git, Docker, etc.</li>
-            <li>Other relevant skills</li>
-        </ul>
-    </section>
-    
-    <section>
-        <h2>Projects</h2>
-        <p><strong>Project Name</strong> - Description of the project.</p>
-        <ul>
-            <li>Key technology or tool used</li>
-            <li>Link to the project or demo: <a href="https://github.com/yourusername/projectname">GitHub Project</a></li>
-        </ul>
-    </section>
+    <div class="container">
+        <header>
+            <h1>Your Name</h1>
+            <p>Professional Title or Tagline</p>
+        </header>
+        
+        <div class="section contact-info">
+            <h2>Contact Information</h2>
+            <p>Email: <a href="mailto:youremail@example.com">youremail@example.com</a></p>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/yourprofile">linkedin.com/in/yourprofile</a></p>
+            <p>GitHub: <a href="https://github.com/yourusername">github.com/yourusername</a></p>
+        </div>
+        
+        <div class="section education">
+            <h2>Education</h2>
+            <ul>
+                <li><strong>Your Degree</strong> - Your University, Graduation Year</li>
+                <li><em>Key Coursework:</em> List relevant courses or subjects</li>
+                <li><em>Achievements:</em> Honors, awards, or distinctions</li>
+            </ul>
+        </div>
+        
+        <div class="section experience">
+            <h2>Work Experience</h2>
+            <ul>
+                <li><strong>Job Title</strong> - Company Name, Year-Year
+                    <ul>
+                        <li>Responsibility or Achievement 1</li>
+                        <li>Responsibility or Achievement 2</li>
+                    </ul>
+                </li>
+                <li><strong>Job Title</strong> - Company Name, Year-Year
+                    <ul>
+                        <li>Responsibility or Achievement 1</li>
+                        <li>Responsibility or Achievement 2</li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        
+        <div class="section skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>Programming Languages: Python, Java, etc.</li>
+                <li>Tools and Technologies: Git, Docker, etc.</li>
+                <li>Other relevant skills</li>
+            </ul>
+        </div>
+        
+        <div class="section projects">
+            <h2>Projects</h2>
+            <ul>
+                <li><strong>Project Name</strong> - Brief description of the project.
+                    <ul>
+                        <li>Key technology or tool used</li>
+                        <li>Link: <a href="https://github.com/yourusername/projectname">GitHub Project</a></li>
+                    </ul>
+                </li>
+                <li><strong>Project Name</strong> - Brief description of the project.
+                    <ul>
+                        <li>Key technology or tool used</li>
+                        <li>Link: <a href="https://github.com/yourusername/projectname">GitHub Project</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
 </body>
 </html>
