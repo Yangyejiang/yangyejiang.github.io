@@ -14,7 +14,7 @@
             background: #f4f4f4;
         }
         .container {
-            max-width: 800px;
+            max-width: 900px;
             margin: 30px auto;
             background: #fff;
             padding: 20px;
@@ -22,7 +22,7 @@
         }
         header {
             text-align: center;
-            margin-bottom: 40px;
+            margin-bottom: 50px;
         }
         header h1 {
             margin: 0;
@@ -33,8 +33,18 @@
             font-size: 1.2em;
             color: #666;
         }
+        .photo {
+            text-align: center;
+            margin-bottom: 50px;
+        }
+        .photo img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
         .section {
-            margin-bottom: 30px;
+            margin-bottom: 40px;
         }
         .section h2 {
             font-size: 1.8em;
@@ -51,28 +61,18 @@
         .section ul li {
             margin-bottom: 10px;
         }
-        .contact-info, .skills, .education, .experience, .projects {
-            display: flex;
-            flex-direction: column;
-        }
-        .contact-info a {
+        .contact-info a, .publications a {
             color: #007acc;
             text-decoration: none;
         }
-        .contact-info a:hover {
+        .contact-info a:hover, .publications a:hover {
             text-decoration: underline;
         }
-        .skills ul, .education ul, .experience ul, .projects ul {
-            padding-left: 20px;
-        }
-        .skills ul li, .education ul li, .experience ul li, .projects ul li {
+        .section ul li {
             margin-bottom: 10px;
         }
-        .projects a {
-            color: #007acc;
-        }
-        .projects a:hover {
-            text-decoration: underline;
+        .skills ul, .education ul, .experience ul, .projects ul, .awards ul, .publications ul, .academic-exchanges ul {
+            padding-left: 20px;
         }
     </style>
 </head>
@@ -83,13 +83,17 @@
             <p>Professional Title or Tagline</p>
         </header>
         
+        <div class="photo">
+            <img src="path/to/your/photo.jpg" alt="Your Photo">
+        </div>
+        
         <div class="section contact-info">
             <h2>Contact Information</h2>
             <p>Email: <a href="mailto:youremail@example.com">youremail@example.com</a></p>
             <p>LinkedIn: <a href="https://www.linkedin.com/in/yourprofile">linkedin.com/in/yourprofile</a></p>
             <p>GitHub: <a href="https://github.com/yourusername">github.com/yourusername</a></p>
         </div>
-        
+
         <div class="section education">
             <h2>Education</h2>
             <ul>
@@ -108,12 +112,6 @@
                         <li>Responsibility or Achievement 2</li>
                     </ul>
                 </li>
-                <li><strong>Job Title</strong> - Company Name, Year-Year
-                    <ul>
-                        <li>Responsibility or Achievement 1</li>
-                        <li>Responsibility or Achievement 2</li>
-                    </ul>
-                </li>
             </ul>
         </div>
         
@@ -125,16 +123,42 @@
                 <li>Other relevant skills</li>
             </ul>
         </div>
-        
+
+        <div class="section awards">
+            <h2>Awards</h2>
+            <ul>
+                <li><strong>Award Title</strong> - Brief description, Year</li>
+                <li><strong>Award Title</strong> - Brief description, Year</li>
+            </ul>
+        </div>
+
+        <div class="section publications">
+            <h2>Published Articles</h2>
+            <ul>
+                <li><strong>Article Title</strong> - Journal/Conference Name, Year
+                    <ul>
+                        <li><a href="link-to-your-article">View Article</a></li>
+                    </ul>
+                </li>
+                <li><strong>Article Title</strong> - Journal/Conference Name, Year
+                    <ul>
+                        <li><a href="link-to-your-article">View Article</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+
+        <div class="section academic-exchanges">
+            <h2>Academic Exchanges</h2>
+            <ul>
+                <li><strong>Event Name</strong> - Description, Year</li>
+                <li><strong>Event Name</strong> - Description, Year</li>
+            </ul>
+        </div>
+
         <div class="section projects">
             <h2>Projects</h2>
             <ul>
-                <li><strong>Project Name</strong> - Brief description of the project.
-                    <ul>
-                        <li>Key technology or tool used</li>
-                        <li>Link: <a href="https://github.com/yourusername/projectname">GitHub Project</a></li>
-                    </ul>
-                </li>
                 <li><strong>Project Name</strong> - Brief description of the project.
                     <ul>
                         <li>Key technology or tool used</li>
