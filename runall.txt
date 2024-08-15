@@ -1,0 +1,1 @@
+py -3 jemdoc_mathjax.py index.jemdoc CV.jemdoc  publications.jemdoc service.jemdoc

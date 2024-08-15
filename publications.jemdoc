@@ -1,0 +1,79 @@
+# jemdoc: menu{MENU}{publications.html}
+=   Publications
+
+== Journal Articles
+
+- *A Distributed Neural Hybrid System Learning Framework in Modeling Complex Dynamical Systems*
+([https://ieeexplore.ieee.org/abstract/document/10576734 PDF])
+\n
+Yejiang Yang, Tao Wang, Weiming Xiang.
+\n
+IEEE Transactions on Neural Networks and Learning System (Regular Paper), 2024.
+
+
+- *Guaranteed approximation error estimation of neural networks and model modification*
+([https://www.sciencedirect.com/science/article/abs/pii/S0893608022001010 PDF])
+\n
+ Yejiang Yang, Tao Wang, Jefferson P Woolard, Weiming Xiang.
+\n
+Neural Networks, 2022.
+
+- *Computationally efficient neural hybrid automaton framework for learning complex dynamics*
+([https://ieeexplore.ieee.org/abstract/document/10576734 PDF])
+\n
+Tao Wang, Yejiang Yang, Weiming Xiang.
+\n
+Neurocomputing, 2023.
+
+- *Efficient Neural Hybrid System Learning and Interpretable Transition System Abstraction for Dynamical Systems*
+\n
+ Yejiang Yang, Zihao Mo, Weiming Xiang. 
+\n
+ASME Letters in Dynamic Systems and Control (ASME-LDSC) Joint Publication, 2024.
+
+
+== Conference Proceeding Papers
+
+- *A Transition System Abstraction Framework for Neural Network Dynamical System Models* ([https://arxiv.org/pdf/2402.11739.pdf PDF])
+\n
+Yejiang Yang, Zihao Mo, Hoang-Dung Tran, Weiming Xiang. 
+\n
+American Control Conference (ACC)，2024.
+
+- *D^3NN: Data-Driven Dual-Level Neural Network Tool for Dynamical System Modeling and Abstraction* 
+\n
+Yejiang Yang, Zihao Mo, Weiming Xiang.  
+\n
+IFAC Conference on Analysis and Design of Hybrid Systems (ADHS), 2024.
+
+- *Efficient Neural Hybrid System Learning and Interpretable Transition System Abstraction for Dynamical Systems* 
+\n
+  Yejiang Yang, Zihao Mo, Weiming Xiang.  
+\n
+Modeling, Estimation and Control Conference (MECC) Joint Publication, 2024.
+
+- *Modeling Dynamical Systems with Neural Hybrid System Framework via Maximum Entropy Approach* ([https://ieeexplore.ieee.org/abstract/document/10155820 PDF])
+\n
+Yejiang Yang, Zihao Mo, Weiming Xiang.
+\n
+American Control Conference (ACC)，2023.
+
+- *A Data-Driven Hybrid Automaton Framework to Modeling Complex Dynamical Systems* ([https://ieeexplore.ieee.org/abstract/document/10155820 PDF])
+\n
+Yejiang Yang, Zihao Mo, Weiming Xiang. 
+\n
+IEEE International Conference on Industrial Technology (ICIT), 2023.
+
+- *Robust optimization framework for training shallow neural networks using reachability method* ([https://ieeexplore.ieee.org/abstract/document/9683106 PDF])
+\n
+Yejiang Yang, Weiming Xiang. 
+\n
+IEEE Conference on Decision and Control (CDC), 2021.
+
+- *Compression Repair for Feedforward Neural Networks Based on Model Equivalence Evaluation* ([https://arxiv.org/pdf/2402.11737.pdf PDF])
+\n
+Zihao Mo, Yejiang Yang, Shuaizheng Lu, Weiming Xiang
+\n
+American Control Conference (ACC), 2024.
+
+

@@ -1,0 +1,33 @@
+# jemdoc: menu{MENU}{CV.html}
+= Curriculum Vitae
+
+~~~
+{}{img_left}{yejiangyang.jpg}{alt text}{180px}{230px}{}
+*Yang, Yejiang* \n
+PhD Candidate \n
+[https://dqxy.swjtu.edu.cn/English/Home.htm/ School of Electrical Engineering] \n
+[https://en.swjtu.edu.cn/ Southwest Jiaotong University, Sichuan, China] 
+\n
+\n
+Email: [mailto:yangyejiang@my.swjtu.edu.cn] \n
+~~~
+
+== Education
+
+- *Ph.D. and M.Sc. of Control Science and Engineering* (2019--Present)
+\n
+*Dissertation:* Neural Network-based Modeling and Control of Complex Dynamic Systems via a Hybrid Automata Method
+\n
+
+*Institution:* [https://dqxy.swjtu.edu.cn/English/Home.htm/ School of Electrical Engineering]
+, [https://www.swjtu.edu.cn/ Southwest Jiaotong University]
+
+
+- *B.E. of Electrical Engineering and its Automation* (2014--2018)
+\n
+*Institution:* [https://dqxy.swjtu.edu.cn/English/Home.htm/ School of Electrical Engineering], [https://www.swjtu.edu.cn/ Southwest Jiaotong University]
+
+
+== Publications
+
+- A full list of papers is available [publications.html here].
