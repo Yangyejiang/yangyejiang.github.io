@@ -7,8 +7,8 @@ title: "Publications"
     <h1>Publications</h1>
 
     <h2>Journal Papers</h2>
-    <div class="publication-year">2024</div>
-    <ul class="publication-list">
+    <h3>2024</h3>
+    <ul>
         <li>
             <strong>A Distributed Neural Hybrid System Learning Framework in Modeling Complex Dynamical Systems</strong> - IEEE Transactions on Neural Networks and Learning Systems, 2024.
             <br>
@@ -22,8 +22,8 @@ title: "Publications"
         </li>
     </ul>
 
-    <div class="publication-year">2023</div>
-    <ul class="publication-list">
+    <h3>2023</h3>
+    <ul>
         <li>
             <strong>Computationally efficient neural hybrid automaton framework for learning complex dynamics</strong> - Neurocomputing, 2023.
             <br>
@@ -32,8 +32,8 @@ title: "Publications"
         </li>
     </ul>
 
-    <div class="publication-year">2022</div>
-    <ul class="publication-list">
+    <h3>2022</h3>
+    <ul>
         <li>
             <strong>Guaranteed approximation error estimation of neural networks and model modification</strong> - Neural Networks, 2022.
             <br>
@@ -43,8 +43,8 @@ title: "Publications"
     </ul>
 
     <h2>Conference Papers</h2>
-    <div class="publication-year">2024</div>
-    <ul class="publication-list">
+    <h3>2024</h3>
+    <ul>
         <li>
             <strong>A Transition System Abstraction Framework for Neural Network Dynamical System Models</strong> - American Control Conference (ACC), 2024.
             <br>
@@ -64,8 +64,8 @@ title: "Publications"
         </li>
     </ul>
 
-    <div class="publication-year">2023</div>
-    <ul class="publication-list">
+    <h3>2023</h3>
+    <ul>
         <li>
             <strong>A Data-Driven Hybrid Automaton Framework to Modeling Complex Dynamical Systems</strong> - IEEE International Conference on Industrial Technology (ICIT), 2023.
             <br>
@@ -80,8 +80,8 @@ title: "Publications"
         </li>
     </ul>
 
-    <div class="publication-year">2021</div>
-    <ul class="publication-list">
+    <h3>2021</h3>
+    <ul>
         <li>
             <strong>Robust optimization framework for training shallow neural networks using reachability method</strong> - IEEE Conference on Decision and Control (CDC), 2021.
             <br>
