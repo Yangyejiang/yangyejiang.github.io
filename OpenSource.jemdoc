@@ -1,0 +1,10 @@
+# jemdoc: menu{MENU}{service.html}
+==Open-Source Projects
+
+=== Dynamical System Modeling
+*Neural Hybrid System Modeling* ([https://github.com/aicpslab/Neural-Hybrid-System-Modeling github])
+\n
+*Abstraction Toolbox for Neural Transition Systems* ([https://github.com/aicpslab/Abstraction-Toolbox-for-Neural-Transition-Systems github])
+\n
+*D3NN: Data Driven Dual Level Neural Network Tool for Dynamic System Modeling* ([https://github.com/aicpslab/Data-Driven-Dual-Level-Neural-Network-Tool-for-Dynamic-System-Modeling-D3NN github])
+
