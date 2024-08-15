@@ -1,0 +1,34 @@
+name: Convert Jemdoc to HTML
+
+on:
+  push:
+    branches:
+      - main  # 当推送到 main 分支时触发
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: '3.x'
+
+    - name: Install jemdoc dependencies
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y texlive-latex-base dvipng
+
+    - name: Convert .jemdoc to .html
+      run: |
+        python jemdoc.py index.jemdoc  # 将 index.jemdoc 转换为 index.html
+
+    - name: Deploy to GitHub Pages
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./  # 部署当前目录下的所有文件
