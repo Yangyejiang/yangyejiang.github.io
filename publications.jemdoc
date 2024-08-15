@@ -1,25 +1,26 @@
 # jemdoc: menu{MENU}{publications.html}
-=   Publications
+=  Publications
+
 
 == Journal Articles
 
-- *A Distributed Neural Hybrid System Learning Framework in Modeling Complex Dynamical Systems*
-([https://ieeexplore.ieee.org/abstract/document/10576734 PDF])
+- *A Distributed Neural Hybrid System Learning Framework in Modeling Complex Dynamical Systems  (Regular Paper)*
+([https://ieeexplore.ieee.org/document/10576734 PDF])
 \n
 Yejiang Yang, Tao Wang, Weiming Xiang.
 \n
-IEEE Transactions on Neural Networks and Learning System (Regular Paper), 2024.
+IEEE Transactions on Neural Networks and Learning System, 2024.
 
 
-- *Guaranteed approximation error estimation of neural networks and model modification*
+- *Guaranteed Approximation Error Estimation of Neural Networks and Model Modification*
 ([https://www.sciencedirect.com/science/article/abs/pii/S0893608022001010 PDF])
 \n
  Yejiang Yang, Tao Wang, Jefferson P Woolard, Weiming Xiang.
 \n
 Neural Networks, 2022.
 
-- *Computationally efficient neural hybrid automaton framework for learning complex dynamics*
-([https://ieeexplore.ieee.org/abstract/document/10576734 PDF])
+- *Computationally Efficient Neural Hybrid Automaton Framework for Learning Complex Dynamics*
+([https://www.sciencedirect.com/science/article/abs/pii/S0925231223010020 PDF])
 \n
 Tao Wang, Yejiang Yang, Weiming Xiang.
 \n
@@ -29,7 +30,7 @@ Neurocomputing, 2023.
 \n
  Yejiang Yang, Zihao Mo, Weiming Xiang. 
 \n
-ASME Letters in Dynamic Systems and Control (ASME-LDSC) Joint Publication, 2024.
+ASME Letters in Dynamic Systems and Control (ASME-LDSC), 2024.
 
 
 == Conference Proceeding Papers
@@ -58,13 +59,13 @@ Yejiang Yang, Zihao Mo, Weiming Xiang.
 \n
 American Control Conference (ACC, 2023.
 
-- *A Data-Driven Hybrid Automaton Framework to Modeling Complex Dynamical Systems* ([https://ieeexplore.ieee.org/abstract/document/10155820 PDF])
+- *A Data-Driven Hybrid Automaton Framework to Modeling Complex Dynamical Systems* ([https://ieeexplore.ieee.org/document/10143031 PDF])
 \n
 Yejiang Yang, Zihao Mo, Weiming Xiang. 
 \n
 IEEE International Conference on Industrial Technology (ICIT), 2023.
 
-- *Robust optimization framework for training shallow neural networks using reachability method* ([https://ieeexplore.ieee.org/abstract/document/9683106 PDF])
+- *Robust Optimization Framework for Training Shallow Neural Networks using Reachability Method* ([https://ieeexplore.ieee.org/abstract/document/9683106 PDF])
 \n
 Yejiang Yang, Weiming Xiang. 
 \n

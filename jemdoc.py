@@ -374,7 +374,7 @@ def insertmenuitems(f, mname, current, prefix):
 
 def out(f, s):
 #  print(type(s))
-  if sys.version_info[0] == 2 and type(s) is isinstance(s, str):
+  if sys.version_info[0] == 2 and type(s) is StringType:
     f.write(s.decode('utf-8'))
   else:
     f.write(s)
